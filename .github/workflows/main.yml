@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ FTP_SERVER }}
+        server: business16.web-hosting.com
         username: ${{ FTP_USERNAME }}
         password: ${{ FTP_PASSWORD }}
         server-dir: ${{ FTP_SERVER_DIR }}
