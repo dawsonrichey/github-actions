@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ ftp_server }}
-        username: ${{ ftp_username }}
-        password: ${{ ftp_password }}
-        server-dir: ${{ ftp_server_dir }}
+        server: ${{ FTP_SERVER }}
+        username: ${{ FTP_USERNAME }}
+        password: ${{ FTP_PASSWORD }}
+        server-dir: ${{ FTP_SERVER_DIR }}
